@@ -1,4 +1,6 @@
 import './App.css';
+import Counter from './components/counter';
+import Users from './components/users';
 
 
 let student:string = "Nahid";
@@ -66,7 +68,8 @@ const handleage = (firstName:string, age:number, address:string):string => {
 function App() {
   return (
     <div className="App">
-
+      <Counter/>
+      <Users/>
     </div>
   );
 }
